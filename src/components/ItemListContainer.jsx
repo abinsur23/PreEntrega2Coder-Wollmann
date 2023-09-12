@@ -1,8 +1,12 @@
-export default function ItemListContainer(props) {
-    return(
-        <h1 style={{ color: props.color}}>
-        {props.texto}
-        </h1>
-    )
+import ItemList from "./ItemList";
+
+
+export default function ItemListContainer({greeting}) {
+    return (
+        <div className="item-list-container">
+            <h1>{greeting}</h1>
+            <ItemList />
+        </div>
+    );
 }
 

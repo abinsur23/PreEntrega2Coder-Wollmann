@@ -9,7 +9,7 @@ function App() {
     return (
       <>
       <Navbar />
-      <ItemListContainer texto="Bienvenido a su Whiskería" color="blue" /> 
+      <ItemListContainer greeting="Bienvenido a su Whiskería" color="blue" /> 
       </>
   );
 };

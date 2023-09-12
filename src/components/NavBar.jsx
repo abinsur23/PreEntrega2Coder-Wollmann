@@ -5,20 +5,16 @@ import CartWidget from './CartShop.jsx';
 
 function Navbar() {
     return (
-        
-            <nav>
-                <img style={{width:90}} src={logo} alt="logo1"/>                      
-                <a href="/"> Inicio</a>
-                <a href="/"> Tienda</a>
-                <a href="/"> Servicios</a>
-                <a href="/"> Contacto</a>
-                <CartWidget />
-
-            </nav>
-        
-            
-        
-        
+    <nav>
+        <img style={{width:90}} src={logo} alt="logo1"/>
+        <ul>
+            <li> Inicio</li>
+            <li> Tienda</li>
+            <li> Servicios</li>
+            <li> Contacto</li>
+        </ul>
+        <CartWidget />
+    </nav>
     );
 }
 
