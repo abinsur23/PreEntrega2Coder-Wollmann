@@ -38,3 +38,17 @@ h1 {
   line-height: 1.1;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  gap: 25px
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  box-shadow: opx 10px 25 -3px rgba(0, 0, 0, 0.1);
+}
+
+
+

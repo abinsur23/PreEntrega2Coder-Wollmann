@@ -7,14 +7,15 @@ function Navbar() {
     return (
     <nav>
         <img style={{width:90}} src={logo} alt="logo1"/>
-        <ul>
-            <li> Inicio</li>
-            <li> Tienda</li>
-            <li> Servicios</li>
-            <li> Contacto</li>
-        </ul>
-        <CartWidget />
-    </nav>
+                <ul>
+
+                    <li> Inicio</li>
+                    <li> Tienda</li>
+                    <li> Servicios</li>
+                    <li> Contacto</li>
+                </ul>
+                <CartWidget />
+            </nav>
     );
 }
 
